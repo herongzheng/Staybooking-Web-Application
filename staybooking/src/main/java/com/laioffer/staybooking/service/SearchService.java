@@ -1,6 +1,5 @@
 package com.laioffer.staybooking.service;
 
-
 import com.laioffer.staybooking.model.Stay;
 import com.laioffer.staybooking.repository.LocationRepository;
 import com.laioffer.staybooking.repository.StayRepository;
@@ -14,6 +13,10 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+/*
+SearchService is for users to search nearby stay rentals 
+within a given distance from the user selected location
+*/
 
 @Service
 public class SearchService {
